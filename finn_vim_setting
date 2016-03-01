@@ -575,8 +575,8 @@ map <leader>N :cp<cr>
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 " ctrlSF 
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-nmap     <C-F> <Plug>CtrlSFPrompt
-vmap     <C-F> <Plug>CtrlSFVwordPath
+nmap     <C-S-F> <Plug>CtrlSFPrompt
+vmap     <C-S-F> <Plug>CtrlSFVwordPath
 vmap     <Leader>f <Plug>CtrlSFVwordExec
 nmap     <Leader>f <Plug>CtrlSFCwordPath
 nmap     <Leader>fp <Plug>CtrlSFPwordPath
