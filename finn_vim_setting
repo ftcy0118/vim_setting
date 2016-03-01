@@ -575,10 +575,10 @@ map <leader>N :cp<cr>
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 " ctrlSF 
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-nmap     <C-S-F> <Plug>CtrlSFPrompt
-vmap     <C-S-F> <Plug>CtrlSFVwordPath
+nmap     <Leader>f <Plug>CtrlSFPrompt
+vmap     <Leader>fv <Plug>CtrlSFVwordPath
 vmap     <Leader>f <Plug>CtrlSFVwordExec
-nmap     <Leader>f <Plug>CtrlSFCwordPath
+nmap     <Leader>fw <Plug>CtrlSFCwordPath
 nmap     <Leader>fp <Plug>CtrlSFPwordPath
 nnoremap <Leader>o :CtrlSFOpen<CR>
 nnoremap <Leader>t :CtrlSFToggle<CR>
