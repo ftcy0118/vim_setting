@@ -242,6 +242,7 @@ if has("gui_running")
     set guioptions-=e
     set t_Co=256
     set guitablabel=%M\ %t
+    set guifont=Inconsolata-dz\ for\ Powerline:h20
 endif
 
 " Use Unix as the standard file type
@@ -708,7 +709,7 @@ nnoremap <Leader>sp :lprevious<cr>
 " auto-pairs
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 " let g:AutoPairsFlyMode = 1 " this is fucking useful but so confused
-let g:AutoPairsShortcutJump = '<S-TAB>'
+let g:AutoPairsShortcutJump = '<Leader><TAB>'
 
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 " nerdcommenter
@@ -719,7 +720,7 @@ let g:NERDSpaceDelims=1
 " ultisnips
 "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 " Trigger configuration. Do not use <tab> if you use https://gjjithub.com/    Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<Leader><TAB>"
+let g:UltiSnipsExpandTrigger="<S-TAB>"
 let g:UltiSnipsJumpForwardTrigger="<space>"
 let g:UltiSnipsJumpBackwardTrigger="<Leader><space>"
 
